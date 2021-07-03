@@ -1,0 +1,185 @@
+
+body {
+  font-family: 'Montserrat';
+}
+
+/* Title Section */
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.title-css {
+font-family: 'Poppins', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: bolder;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 11%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.4rem;
+
+  font-family: Montserrat-Light;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Img */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat-Bolder';
+  font-size: 1.75rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.p-features {
+  color: #8f8f8f;
+}
+#features-style {
+  margin: 40px 0;
+
+}
+
+.feature-icon {
+  font-size: 5rem;
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action Section */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 100px 250px 70px;
+
+
+}
+.h3-cta {
+  font-size: 3.5rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Footer Section */
+
+#footer {
+text-align: center;
+background-color: #fff;
+padding: 7% 15% 20%;
+
+}
+
+.footer-icon {
+font-size: 35px;
+margin: auto 25px;
+font-family: "Poppins";
+}
+.p-footer {
+  padding-top: 50px;
+  color: grey;
+}
